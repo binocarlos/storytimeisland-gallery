@@ -1,0 +1,23 @@
+{
+  "name": "storytimeisland-gallery",
+  "description": "Renders a gallery of pages in a storytime island book",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/emitter": "*",
+    "component/jquery": "*",
+    "component/hammer.js": "*",
+    "component/has-translate3d": "*"
+  },
+  "development": {},
+  "styles": [
+    "gallery.css"
+  ],
+  "main":"index.js",
+  "scripts": [
+    "index.js",
+    "templates/gallery.js",
+    "templates/gallerypage.js"
+  ],
+  "remotes": []
+}
