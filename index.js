@@ -25,7 +25,7 @@ module.exports = function storytimeisland_gallery(options){
 
   var pages = options.pages;
 
-  var total_width = pages * (thumb_width+10);
+  var total_width = pages.length * (thumb_width+10);
 
   var gallery = new Emitter();
 
@@ -54,8 +54,6 @@ module.exports = function storytimeisland_gallery(options){
   var imageholder = $imageselem;
 
   var total_width = imageholder.width();
-  var visible_width = $elem.width();
-  var max_offset = total_width-visible_width + 200;
   var current_offset = 0;
 
   gallery.destroy = function(){
@@ -63,7 +61,13 @@ module.exports = function storytimeisland_gallery(options){
   }
 
   gallery.animate = function(direction){
-    var new_offset = current_offset + (direction*(visible_width/4)*-1);
+    var visible_width = append_to.width();
+    var max_offset = total_width - visible_width;
+
+    direction = direction*-1;
+
+    var new_offset = current_offset + (direction*400);
+
     if(new_offset>0){
       new_offset = 0;
     }

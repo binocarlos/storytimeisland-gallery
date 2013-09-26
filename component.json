@@ -6,14 +6,13 @@
   "dependencies": {
     "component/emitter": "*",
     "component/jquery": "*",
-    "component/hammer.js": "*",
-    "component/has-translate3d": "*"
+    "component/hammer.js": "*"
   },
   "development": {},
   "styles": [
     "gallery.css"
   ],
-  "main":"index.js",
+  "main": "index.js",
   "scripts": [
     "index.js",
     "templates/gallery.js",
