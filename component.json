@@ -6,7 +6,6 @@
   "dependencies": {
     "component/emitter": "*",
     "component/jquery": "*",
-    "component/hammer.js": "*"
   },
   "development": {},
   "styles": [
