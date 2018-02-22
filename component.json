@@ -1,7 +1,7 @@
 {
   "name": "storytimeisland-gallery",
   "description": "Renders a gallery of pages in a storytime island book",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "dependencies": {
     "component/emitter": "*",
