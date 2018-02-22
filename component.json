@@ -5,7 +5,7 @@
   "keywords": [],
   "dependencies": {
     "component/emitter": "*",
-    "component/jquery": "*",
+    "component/jquery": "*"
   },
   "development": {},
   "styles": [
